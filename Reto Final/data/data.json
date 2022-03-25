@@ -1,0 +1,151 @@
+{
+    "frutas": [
+        {
+            "id": 1,
+            "nombre": "Manzana Roja",
+            "imagen": "https://elegifruta.com.ar/onepage/wp-content/uploads/2017/07/manzana_roja.jpg",
+            "precio": 600,
+            "cantidad": 0
+        },
+        {
+            "id": 2,
+            "nombre": "Pera",
+            "imagen": "data:image/jpeg;base64,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",
+            "precio": 200,
+            "cantidad": 0
+        },
+        {
+            "id": 3,
+            "nombre": "Durazno",
+            "imagen": "https://cdn2.cocinadelirante.com/sites/default/files/images/2021/09/fruta-parecida-al-durazno-sergeypeterman.jpg",
+            "precio": 750,
+            "cantidad": 0
+        },
+        {
+            "id": 4,
+            "nombre": "Naranja",
+            "imagen": "https://imgs.globovision.com/Ihm-T6d4oENMjdWqLm9kFHqL-kk=/847x0/smart/d5aaf1dbef774fedb10f2a1e95ffe53e",
+            "precio": 400,
+            "cantidad": 0
+        },
+        {
+            "id": 5,
+            "nombre": "Sandia",
+            "imagen": "https://elpoderdelconsumidor.org/wp-content/uploads/2021/08/sandia.jpg",
+            "precio": 3500,
+            "cantidad": 0
+        },
+        {
+            "id": 6,
+            "nombre": "Manzana Verde",
+            "imagen": "https://www.chapinradio.com/wp-content/uploads/2020/10/manza-700x525.jpg",
+            "precio": 800,
+            "cantidad": 0
+        },
+        {
+            "id": 7,
+            "nombre": "Mandarina",
+            "imagen": "https://cdn2.salud180.com/sites/default/files/field/image/2017/11/mandraina.jpg",
+            "precio": 350,
+            "cantidad": 0
+        },
+        {
+            "id": 8,
+            "nombre": "Banano",
+            "imagen": "https://encolombia.com/wp-content/uploads/2013/01/Banano.jpg",
+            "precio": 900,
+            "cantidad": 0
+        },
+        {
+            "id": 9,
+            "nombre": "Granadilla",
+            "imagen": "https://m.media-amazon.com/images/I/71fVQjsiopL._AC_SX679_.jpg",
+            "precio": 2000,
+            "cantidad": 0
+        },
+        {
+            "id": 10,
+            "nombre": "Pitahaya Dragón",
+            "imagen": "https://www.lavanguardia.com/files/image_948_465/uploads/2018/07/20/5ea9bb0fd6b7b.jpeg",
+            "precio": 4500,
+            "cantidad": 0
+        },
+        {
+            "id": 11,
+            "nombre": "Pitaya",
+            "imagen": "https://s1.eestatic.com/2020/10/22/actualidad/actualidad_530208317_163219913_1024x576.jpg",
+            "precio": 1200,
+            "cantidad": 0
+        },
+        {
+            "id": 12,
+            "nombre": "Limón",
+            "imagen": "https://sc2.elpais.com.uy/files/article_default_content/uploads/2017/09/11/59b612d1476cf.jpeg",
+            "precio": 250,
+            "cantidad": 0
+        },        {
+            "id": 13,
+            "nombre": "Fresa",
+            "imagen": "https://img.interempresas.net/fotos/1341264.jpeg",
+            "precio": 300,
+            "cantidad": 0
+        },
+        {
+            "id": 14,
+            "nombre": "Maracuyá",
+            "imagen": "https://caribbeanexotics.com.co/wp-content/uploads/2021/03/maracuya-producto-caribbean-exotics.png",
+            "precio": 500,
+            "cantidad": 0
+        },        {
+            "id": 15,
+            "nombre": "Lulo",
+            "imagen": "https://caribbeanexotics.com.co/wp-content/uploads/2021/03/lulo-producto-caribbean-exotics.png",
+            "precio": 750,
+            "cantidad": 0
+        }
+    ],
+    "vegetales": [
+        {
+            "id": 16,
+            "nombre": "Tomate",
+            "imagen": "https://www.quironsalud.es/idcsalud-client/cm/images?locale=es_ES&idMmedia=2299323",
+            "precio": 300,
+            "cantidad": 0
+        },
+        {
+            "id": 17,
+            "nombre": "Zanahoria",
+            "imagen": "https://5aldia.cl/wp-content/uploads/2018/03/zanahoria.jpg",
+            "precio": 500,
+            "cantidad": 0
+        },
+        {
+            "id": 18,
+            "nombre": "Papa",
+            "imagen": "https://media.justo.mx/__sized__/products/VERDURAS-Papa-1-thumbnail-510x510-70.jpg",
+            "precio": 100,
+            "cantidad": 0
+        },
+        {
+            "id": 19,
+            "nombre": "Calabaza",
+            "imagen": "https://st.depositphotos.com/1011268/1307/i/600/depositphotos_13077441-stock-photo-pumpkin.jpg",
+            "precio": 5000,
+            "cantidad": 0
+        },
+            {
+            "id": 20,
+            "nombre": "Repollo",
+            "imagen": "https://metrocolombiafood.vteximg.com.br/arquivos/ids/165382-750-750/895-1.jpg?v=636670821466630000",
+            "precio": 1200,
+            "cantidad": 0
+        },
+        {
+            "id": 21,
+            "nombre": "Cebolla Roja",
+            "imagen": "https://www.fructusterrum.com/wp-content/uploads/2020/07/cebolla-roja-1.jpg",
+            "precio": 1200,
+            "cantidad": 0
+        }
+    ]
+}

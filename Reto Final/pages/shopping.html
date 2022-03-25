@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/70d1ba42cb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/shopping.css">
+    <title>Compras</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <label class="logo">Menú</label>
+            <ul class="menu_items">
+                <li ><a href="../index.html">inicio</a></li>
+                <li><a href="../pages/frutas.html">Frutas</a></li>
+                <li><a href="../pages/verduras.html">Verduras</a></li>
+                <li><a href="#">Compras</a></li>
+                <li><a href="../pages/shopping.html">Pagos</a></li>
+
+                <li><i class="fa-solid fa-cart-shopping"></i></li>
+            </ul>
+            <span class="btn_menu">
+                <i class="fa  fa-bars"></i>
+            </span>
+        </nav>
+    </header>
+
+    <main>
+        <div class="principal_title">
+            <h1>Información de pago</h1>
+            <form action="" id="formulario-tarjeta" class="formulario-tarjeta">
+                <div class="grupo">
+                    <label for="inputNumero">Número Tarjeta</label>
+                    <input type="text" id="inputNumero" maxlength="19" autocomplete="off" required>
+                </div>
+                <div class="grupo">
+                    <label for="inputNombre">Nombre</label>
+                    <input type="text" id="inputNombre" maxlength="19" autocomplete="off" required>
+                </div>
+                <div class="flexbox">
+                    <div class="grupo expira">
+                        <label for="selectMes">Expiracion</label required>
+                        <div class="flexbox">
+                            <div class="grupo-select">
+                                <select name="mes" id="selectMes">
+                                    <option disabled selected>Mes</option>
+                                </select>
+                                <i class="fas fa-angle-down"></i>
+                            </div>
+                            <div class="grupo-select">
+                                <select name="year" id="selectYear">
+                                    <option disabled selected>Año</option>
+                                </select>
+                                <i class="fas fa-angle-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grupo ccv">
+                        <label for="inputCCV">CCV</label>
+                        <input type="text" id="inputCCV" maxlength="3" required>
+                    </div>
+                </div>
+                <button type="submit" class="btn-enviar">Enviar</button>
+            </form>
+        </div>
+        </div>
+    </main>
+
+<footer>
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, non.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, non.</p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2022 <b>Menú</b> - Todos los derechos reservados</small>
+        </div>
+</footer>
+<script type="module" src="../scripts/carrito.js"></script>
+</body>
+</html>
